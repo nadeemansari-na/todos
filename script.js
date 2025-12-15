@@ -58,4 +58,3 @@ app.get('/simpleinterest',(req, res)=>{
     const calc=(principle*interest*time)/100
     res.send("total =" +total + "interest=" + calc.toString())
 })
-app.listen(3000)
